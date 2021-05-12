@@ -1,0 +1,29 @@
+
+@use 'colors';
+
+%base-button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: colors.$red;
+  }
+#body2{
+    
+      
+     
+      .my_button {
+        @extend %base-button;
+      }
+    
+      .submit_button{
+        @extend %base-button;
+        font-size: 12px;
+      }
+    
+      .menue_button{
+        @extend %base-button;
+        background-color: chartreuse;
+      }
+}
+
+
+  

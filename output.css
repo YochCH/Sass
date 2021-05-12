@@ -1,0 +1,21 @@
+#body1 div {
+  background-color: gray;
+}
+#body1 h1 {
+  color: #1111a7;
+}
+
+#body2 .menue_button, #body2 .submit_button, #body2 .my_button {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: rgba(223, 61, 61, 0.555);
+}
+
+#body2 .submit_button {
+  font-size: 12px;
+}
+#body2 .menue_button {
+  background-color: chartreuse;
+}
+
+/*# sourceMappingURL=output.css.map */
